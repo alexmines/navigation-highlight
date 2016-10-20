@@ -6,14 +6,20 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  line-height: 1.5;
+}
 h1 {
   font-family: 'Sigmar One', serif;
   font-size: 3rem;
   text-align: center;
   color: #cc1465;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-li {
+a {
   display: inline-block;
   list-style-type: none;
   line-height: 1.5;
@@ -25,14 +31,28 @@ li {
   background-color: #b2a212;
   border-color: #b2a212;
   border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
 }
 
-li:hover {
+li {
+  display: inline-block;
+}
+
+a:hover {
   background-color: #b20953;
+  border-color: #b20953;
 }
 
 header {
-    background-color: #ffe500;
+  background-color: #ffe500;
+
+}
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h2 {
@@ -50,4 +70,10 @@ footer {
   font-size: .75rem;
   text-align: center;
   background-color: #ffe500;
+  margin: 0 0 .2em;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
 }
